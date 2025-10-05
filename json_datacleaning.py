@@ -1,3 +1,4 @@
+# Google map 軌跡資料集json檔案轉換成DataFrame再轉換成CSV2檔案匯出
 import json
 import pandas as pd
 
@@ -56,5 +57,6 @@ def data_fransfer():
     #print(raw_data_fixed.values())
     #for key, value in raw_data_fixed.items():
         #print(key, value)
+
 
 data_fransfer()
