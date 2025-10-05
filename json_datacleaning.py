@@ -1,3 +1,4 @@
+# 從Google 帳號下在龜機dataset後，進行資料清洗，把json資料集萃取出時間地點經緯度，轉換成DataFrame，CSV檔餵給tableau做資料視覺呈獻
 import json
 import pandas as pd
 
@@ -54,3 +55,4 @@ df.to_csv("Google定位資訊set.csv")
 #print(raw_data_fixed.values())
 #for key, value in raw_data_fixed.items():
     #print(key, value)
+
